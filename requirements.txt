@@ -1,7 +1,5 @@
-openai
-langchain
-docx2txt
-pypdf
-streamlit
-chromadb
-tiktoken
+# minimal production requirements
+fastapi==0.65.2
+torch==1.13.1
+transformers==4.9.2
+uvicorn==0.14.0
